@@ -21,11 +21,7 @@
     @stack('head')
 </head>
 
-<body>
-
-    <!--*******************
-        Preloader start
-    ********************-->
+<body data-theme-version="dark">
     <div id="preloader">
         <div class="loader">
             <svg class="circular" viewBox="25 25 50 50">
@@ -33,37 +29,18 @@
             </svg>
         </div>
     </div>
-    <!--*******************
-        Preloader end
-    ********************-->
 
-
-    <!--**********************************
-        Main wrapper start
-    ***********************************-->
     <div id="main-wrapper">
-
-        <!--**********************************
-            Nav header start
-        ***********************************-->
         <div class="nav-header">
-            <div class="brand-logo">
+            <div class="brand-logo pt-3">
                 <a href="{{ route('home.home.index') }}">
-                    <b class="logo-abbr"><img src="{{ asset('assets/web/images/logo.png') }}" alt="logo"> </b>
-                    <span class="logo-compact"><img src="{{ asset('assets/web/images/logo-compact.png') }}" width="150" alt="logo"></span>
-                    <span class="brand-title">
-                        <img src="https://img7.mynet.com.tr/mynet-logo.png" width="200" height="65" alt="logo">
+                   <span class="brand-title">
+                       MYNET PROJECT
                     </span>
                 </a>
             </div>
         </div>
-        <!--**********************************
-            Nav header end
-        ***********************************-->
 
-        <!--**********************************
-            Header start
-        ***********************************-->
         <div class="header">
             <div class="header-content clearfix">
 
@@ -77,7 +54,7 @@
                         <li class="icons dropdown">
                             <div class="user-img c-pointer position-relative"   data-toggle="dropdown">
                                 <span class="activity active"></span>
-                                <img src="{{ asset('assets/web/images/user/form-user.png') }}" height="40" width="40" alt="">
+                                <img src="{{ asset('assets/web/images/user/form-user.jpg') }}" height="40" width="40" alt="">
                             </div>
                             <div class="drop-down dropdown-profile animated fadeIn dropdown-menu">
                                 <div class="dropdown-content-body">
@@ -91,17 +68,11 @@
                 </div>
             </div>
         </div>
-        <!--**********************************
-            Header end ti-comment-alt
-        ***********************************-->
 
-        <!--**********************************
-            Sidebar start
-        ***********************************-->
         <div class="nk-sidebar">
             <div class="nk-nav-scroll">
                 <ul class="metismenu" id="menu">
-                    <li class="nav-label">Menü</li>
+                    <li class="nav-label color-white"><span class="color-white">Menü</span></li>
 
                     <li>
                         <a href="{{ route('web.member.index') }}" aria-expanded="false">
