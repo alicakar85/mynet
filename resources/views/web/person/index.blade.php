@@ -58,7 +58,7 @@
                                                 <span>
                                                     <a href="{{ route('web.person.edit', ['id' => $item->id]) }}"
                                                        data-toggle="tooltip" data-placement="top"
-                                                       data-original-title="Düzenle">
+                                                       data-original-title="Düzenle">Düzenle
                                                         <i class="fa fa-pencil color-muted m-r-5"></i>
                                                     </a>
 
@@ -66,7 +66,7 @@
                                                        href="{{ route('web.person.destroy', ['id' => $item->id]) }}"
                                                        data-toggle="tooltip" data-placement="top" title="Sil"
                                                        data-original-text="Silmek istediğinize emin misiniz?"
-                                                       data-original-title="Kayıt Sil">
+                                                       data-original-title="Kayıt Sil">Sil
                                                         <i class="fa fa-close color-danger"></i>
                                                     </a>
                                                 </span>
