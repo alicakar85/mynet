@@ -12,7 +12,7 @@
 
 </head>
 
-<body class="h-100">
+<body data-theme-version="dark" class="h-100">
 <!--*******************
     Preloader start
 ********************-->
